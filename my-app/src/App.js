@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Navbar 
-         title="Satish Yadav" textabout="About Us" texthome="Home"
+         title="TextUtils" textabout="About Us" texthome="Home"
       />
       <div className="container my-3">
         <TextForm heading="Enter Text Here"/>
