@@ -11,11 +11,13 @@ export default  function TextForm(props){
     const handleOnClick = () =>{
         let newText = text.toUpperCase();
         setText(newText)
+        props.showAlert("Converted to Uppercase")
     }
 
     const handleOnlClick = () =>{
         let newText = text.toLowerCase();
         setText(newText)
+        props.showAlert("Converted to Lowercase")
     }
 
     const handleOnClearClick = () =>{
